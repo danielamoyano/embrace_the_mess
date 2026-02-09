@@ -1,0 +1,27 @@
+/* Base typography */
+body {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.75;
+  font-size: 18px;
+  color: #111;
+}
+
+/* Notebook-like content width */
+.post-content, .page-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* Images */
+img {
+  margin: 2rem 0;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=main.css.map */

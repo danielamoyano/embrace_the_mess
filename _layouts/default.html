@@ -5,8 +5,23 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
   </head>
   <body>
+    <header class="topnav">
+      <div class="topnav-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="navlinks">
+          <a href="{{ '/aroslibrary/' | relative_url }}">ARO's library</a>
+          <a href="{{ '/archive/' | relative_url }}">Journal</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+        </nav>
+      </div>
+    </header>
+
     <main class="page-content">
       {{ content }}
     </main>

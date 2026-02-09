@@ -5,24 +5,19 @@ title: Embrace the Research Mess
 
 # Embrace the Mess
 
-A PhD journal in progress — notes, sketches, diagrams, and experiments on how knowledge travels.
+A PhD journal in progress...
 
 ---
 
 ### What this is
-This is a working notebook.
-I’m documenting ideas while they’re still forming: incomplete thoughts, visual models, failures, and small breakthroughs.
+This is a working online notebook that makes visible how research is continuously taking shape.
+I document ideas while they are still forming: thoughts, visual models, diagrams, sketches, everyday objects—everything that contributes to the development of my research.
 
-I’m researching new ways of transmitting knowledge — so the format is part of the experiment.
-
----
+I am exploring new ways of transmitting knowledge, and this online journal is part of that process.
 
 ### How to read it
-- **Journal entries**: day-to-day thinking and progress
-- **Experiments**: attempts at visual/interactive transmission
-- **Fragments**: raw notes worth keeping
-
----
+- **Journal entries**: week-to-week thinking
+- **ARO's library**: a collection of alternative ways of transmitting knowledge beyond academic journal articles
 
 ### Recent entries
 <ul>

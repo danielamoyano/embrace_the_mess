@@ -1,0 +1,22 @@
+---
+layout: default
+title: Archive
+---
+
+<div class="archive">
+  {% for post in site.posts %}
+    <a class="archive-item" href="{{ post.url | relative_url }}">
+      {% if post.hero %}
+        <img class="archive-thumb" src="{{ post.hero | relative_url }}" alt="">
+      {% endif %}
+
+      <div class="archive-text">
+        <div class="archive-title">{{ post.title }}</div>
+        <div class="archive-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+        <div class="archive-excerpt">
+          {{ post.excerpt | markdownify | strip_html | truncate: 240 }}
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

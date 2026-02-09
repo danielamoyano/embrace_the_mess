@@ -2,7 +2,7 @@
 layout: post
 title: "Research messiness manifesto"
 section: journal
-hero: /images/la-obra-es-sobra.jpg
+hero: images/la-obra-es-sobra.jpg
 ---
 ![poster](/images/la-obra-es-sobra.jpg)
 You do not know when you will come across something that can be interesting to your research. During my vacation in Chile (my origin country) I came across this argentinian poster meanwhile I was scrolling on Instagram. It says "La obra es sobra del proceso" (translated to english means: The art piece is the rest of the art process). It is a bit difficult to translate it because it has a word game with *obra* and *sobra*. 

@@ -45,7 +45,7 @@ h1, h2, h3 {
 =============================== */
 a,
 a:visited {
-  color: #e6392f;
+  color: #912727;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ img {
 .navlinks a:visited {
   margin-left: 0.9rem;
   font-size: 0.95rem;
-  color: #e6392f;
+  color: #912727;
 }
 
 .navlinks a:hover,

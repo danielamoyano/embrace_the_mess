@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La obra es sobra del proceso"
+title: "Reflections on our First Pictorial"
 hero: /images/la-obra-es-sobra.jpg
 ---
 ![poster](/images/la-obra-es-sobra.jpg)

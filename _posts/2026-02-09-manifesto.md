@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "La obra es sobra del proceso"
+title: "Research messiness manifesto"
+section: journal
 hero: /images/la-obra-es-sobra.jpg
 ---
 ![poster](/images/la-obra-es-sobra.jpg)

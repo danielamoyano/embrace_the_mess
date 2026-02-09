@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Embrace the Research Mess
 ---
 
 # Embrace the Mess
@@ -24,3 +25,15 @@ I’m researching new ways of transmitting knowledge — so the format is part o
 ---
 
 ### Recent entries
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+      <span style="color:#777; font-size:0.9em;">
+        — {{ post.date | date: "%B %d, %Y" }}
+      </span>
+    </li>
+  {% endfor %}
+</ul>

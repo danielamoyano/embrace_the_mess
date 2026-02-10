@@ -23,7 +23,7 @@ I am exploring new ways of transmitting knowledge, and this online journal is pa
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
       <span style="color:#777; font-size:0.9em;">

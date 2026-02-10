@@ -1,3 +1,5 @@
 title: Embrace the Mess
 description: PhD journal and visual thinking
 show_excerpts: true
+excerpt_separator: "<!--more-->"
+baseurl: "/embrace_the_mess"

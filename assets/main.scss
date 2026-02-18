@@ -3,7 +3,7 @@
 /* ===============================
    Variables
 =============================== */
-$accent: #912727;
+$accent: #ffffff;
 $bg: #4e31e1;
 $text: #ffffff;
 
@@ -11,7 +11,8 @@ $text: #ffffff;
    Base typography
 =============================== */
 body {
-  font-family: "Bree Serif", serif;
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.75;
   color: $text;
@@ -24,7 +25,7 @@ p,
 li,
 .post-body p,
 .archive-excerpt {
-  font-family: "Work Sans", system-ui, -apple-system, BlinkMacSystemFont,
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
@@ -196,7 +197,7 @@ img {
 
 .archive-meta {
   font-size: 0.92rem;
-  color: rgba(0,0,0,0.55);
+  color: rgba(255, 255, 255, 0.55);
   margin-bottom: 0.6rem;
 }
 

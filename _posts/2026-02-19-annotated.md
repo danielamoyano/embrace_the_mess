@@ -22,7 +22,7 @@ In our last class, we discussed the idea of intermediate-level knowledge. The au
 What I find particularly compelling about this perspective is that these artifacts are not limited to traditional objects. They can include videos, postcards, installations, prototypes, and other forms of material expression. This expands what we understand as legitimate carriers of knowledge.
 
 Löwgren (2013) extends this argument by positioning annotated portfolios as a form of intermediate-level knowledge—situated between particular artifacts and general theory. The annotations enable abstraction beyond the individual artifact, allowing insights to travel across contexts. In this sense, he also connects annotated portfolios to other intermediate forms of knowledge such as guidelines, criticism, patterns, and strong concepts. Therefore, he concludes that annotated portfolios constitute a legitimate mode of knowledge production.
-![intermediate knowledge](images/intermedate-knowledge.jpg)
+![intermediate knowledge](/embrace_the_mess/images/intermedate-knowledge.jpg)
 
 All of this discussion is framed within a broader question: how can design enter the scientific community—particularly fields like Computer Science? How do we validate and establish rigor in knowledge that emerges through making?
 

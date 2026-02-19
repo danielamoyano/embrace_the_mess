@@ -13,7 +13,7 @@ I am currently taking a course on Interaction Design. Although I feel that I hav
 
 As Löwgren (2013) writes:
 
-“The essence of research is to produce knowledge, and the essence of design is to produce artifacts.”
+>“The essence of research is to produce knowledge, and the essence of design is to produce artifacts.”
 
 Coming from a background in sociology, I had rarely reflected deeply on research in design. My training has been centered on people and their interactions—perhaps because sociology naturally directs attention there. Design research, however, seems to operate differently. It asks how artifacts themselves can become knowledge.
 

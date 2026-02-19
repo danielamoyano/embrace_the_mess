@@ -3,6 +3,7 @@ layout: post
 title: "Research messiness manifesto"
 section: journal
 hero: assets/img/la-obra-es-sobra.jpg
+body_class: single-post
 ---
 ![poster](../../../../assets/img/la-obra-es-sobra.jpg)
 

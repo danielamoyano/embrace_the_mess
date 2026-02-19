@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
-  <body>
+
+  <body class="{{ page.body_class | default: '' }}">
+
     <header class="topnav">
       <div class="topnav-inner">
-        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a class="brand" href="{{ '/' | relative_url }}">
+          {{ site.title }}
+        </a>
+
         <nav class="navlinks">
           <a href="{{ '/aroslibrary/' | relative_url }}">ARO's library</a>
           <a href="{{ '/archive/' | relative_url }}">Journal</a>
@@ -25,5 +33,6 @@
     <main class="page-content">
       {{ content }}
     </main>
+
   </body>
 </html>

@@ -1,129 +1,69 @@
+@charset "UTF-8";
 /* ===============================
-   Variables
+   TOKENS (colores / tipografía)
 =============================== */
+:root {
+  --purple: #4e31e1;
+  --pink: #fdddff;
+  --white: #ffffff;
+  --text-dark: #111111;
+}
+
 /* ===============================
-   Base typography
+   BASE
 =============================== */
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.75;
-  color: #ffffff;
-  background-color: #4e31e1;
-  margin: 0;
+  /* DEFAULT = morado */
+  background: var(--purple);
+  color: var(--white);
 }
 
-/* Paragraphs (reading font) */
-p,
-li,
-.post-body p,
-.archive-excerpt {
-  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-}
-
-/* ===============================
-   Layout
-=============================== */
-.page-content,
-.post-content,
-.post {
+.page-content {
   max-width: 720px;
   margin: 0 auto;
+  padding: 2rem 1.2rem 4rem;
 }
 
-/* ===============================
-   Headings
-=============================== */
 h1, h2, h3 {
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.01em;
+  margin: 0 0 0.8rem;
 }
 
-/* ===============================
-   Links (GLOBAL)
-=============================== */
-a,
-a:visited {
-  color: #ffffff;
+a, a:visited {
+  color: var(--white);
   text-decoration: none;
 }
 
 a:hover {
   opacity: 0.85;
-  text-decoration: none;
 }
 
-/* ===============================
-   Images
-=============================== */
+/* IMÁGENES: sin puntas redondeadas */
 img {
-  display: block;
   max-width: 100%;
   height: auto;
-  margin: 2.5rem auto;
-  border-radius: 8px;
+  display: block;
+  border-radius: 0;
 }
 
 /* ===============================
-   Posts
-=============================== */
-.post h1 {
-  font-size: 2.2rem;
-  line-height: 1.15;
-  margin-bottom: 1.5rem;
-}
-
-.post p {
-  margin: 1.1rem 0;
-}
-
-.post hr {
-  border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  margin: 2.5rem 0;
-}
-
-.post a {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-.post a:hover {
-  border-bottom-color: rgba(255, 255, 255, 0.55);
-}
-
-.post blockquote {
-  margin: 2rem 0;
-  padding-left: 1rem;
-  border-left: 3px solid rgba(255, 255, 255, 0.25);
-  color: rgba(0, 0, 0, 0.75);
-}
-
-.post pre {
-  background: rgba(255, 255, 255, 0.06);
-  padding: 1rem 1.1rem;
-  border-radius: 10px;
-  overflow-x: auto;
-}
-
-.post code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.95em;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 0.15em 0.35em;
-  border-radius: 6px;
-}
-
-/* ===============================
-   Top Navigation
+   TOP NAV
 =============================== */
 .topnav {
   position: sticky;
   top: 0;
-  background: #4e31e1;
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   z-index: 10;
+  background: var(--purple);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .topnav-inner {
@@ -131,76 +71,21 @@ img {
   margin: 0 auto;
   padding: 1rem 1.2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .brand {
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: 700;
 }
 
-.navlinks a,
-.navlinks a:visited {
+.navlinks a, .navlinks a:visited {
   margin-left: 0.9rem;
   font-size: 0.95rem;
-  color: #ffffff;
+  color: var(--white);
 }
 
-.navlinks a:hover,
-.navlinks a:visited:hover {
-  opacity: 0.8;
-}
-
-/* ===============================
-   Archive
-=============================== */
-.archive {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  margin-top: 2rem;
-}
-
-.archive-item {
-  display: grid;
-  grid-template-columns: 160px 1fr;
-  gap: 1rem;
-  padding: 1rem;
-  border-radius: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.archive-item:hover {
-  border-color: rgba(255, 255, 255, 0.18);
-}
-
-.archive-thumb {
-  width: 160px;
-  height: 110px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-.archive-title {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.archive-meta {
-  font-size: 0.92rem;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 0.6rem;
-}
-
-.archive-excerpt {
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.78);
-}
-
-/* ===============================
-   Mobile
-=============================== */
 @media (max-width: 640px) {
   .topnav-inner {
     flex-direction: column;
@@ -210,13 +95,264 @@ img {
     margin-left: 0;
     margin-right: 0.9rem;
   }
-  .archive-item {
+}
+/* ===============================
+   HOME (collage + texto)
+   Requiere: body_class: home
+=============================== */
+body.home .page-content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo morado en home */
+body.home {
+  background: var(--purple);
+}
+
+/* Capa collage: SOLO home */
+body.home .home-collage {
+  position: fixed;
+  inset: 0;
+  padding-top: 72px; /* espacio nav */
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Posters: SOLO home */
+body.home .home-poster {
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  border: 0;
+  text-decoration: none;
+  background: transparent;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.25);
+}
+
+body.home .home-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Panel de texto */
+body.home .home-overlay {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  margin: 140px auto 60px;
+  padding: 28px 32px;
+  background: rgb(255, 255, 255);
+  color: #4e31e1;
+  border: 10px solid rgba(217, 255, 150, 0.5);
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.2);
+}
+
+body.home .home-overlay a,
+body.home .home-overlay a:visited {
+  color: var(--text-dark);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.35);
+}
+
+body.home .home-overlay hr {
+  border: 0;
+  border-top: 1px dashed rgba(0, 0, 0, 0.35);
+  margin: 18px 0;
+}
+
+/* Posiciones ejemplo (ajusta a gusto) */
+body.home .home-poster:nth-child(1) {
+  top: 120px;
+  left: 70px;
+  width: 260px;
+  transform: rotate(-4deg);
+}
+
+body.home .home-poster:nth-child(2) {
+  top: 170px;
+  left: 330px;
+  width: 190px;
+  transform: rotate(2deg);
+}
+
+body.home .home-poster:nth-child(3) {
+  top: 110px;
+  right: 120px;
+  width: 300px;
+  transform: rotate(3deg);
+}
+
+body.home .home-poster:nth-child(4) {
+  top: 420px;
+  left: 140px;
+  width: 320px;
+  transform: rotate(2deg);
+}
+
+body.home .home-poster:nth-child(5) {
+  top: 470px;
+  right: 160px;
+  width: 240px;
+  transform: rotate(-2deg);
+}
+
+body.home .home-poster:nth-child(6) {
+  bottom: 80px;
+  left: 260px;
+  width: 280px;
+  transform: rotate(1deg);
+}
+
+@media (max-width: 900px) {
+  body.home .home-overlay {
+    margin: 110px 16px 40px;
+  }
+  body.home .home-poster:nth-child(n+5) {
+    display: none;
+  }
+}
+/* ===============================
+   JOURNAL (Archive page) — rosado
+   Requiere: body_class: journal
+=============================== */
+body.journal {
+  background: var(--pink);
+  color: var(--purple);
+}
+
+body.journal a, body.journal a:visited {
+  color: var(--purple);
+}
+
+body.journal .topnav {
+  background: var(--purple);
+}
+
+body.journal .navlinks a, body.journal .navlinks a:visited,
+body.journal .brand {
+  color: var(--white);
+}
+
+body.journal .page-content {
+  max-width: 900px;
+}
+
+/* Archivo */
+body.journal .archive {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+/* Cada item con línea dashed */
+body.journal .archive-item {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.2rem;
+  padding: 1.8rem 0;
+  border-bottom: 1px dashed var(--purple);
+  text-decoration: none;
+}
+
+body.journal .archive-thumb {
+  width: 160px;
+  height: 110px;
+  object-fit: cover;
+}
+
+body.journal .archive-title {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+body.journal .archive-meta {
+  font-size: 0.92rem;
+  opacity: 0.75;
+  margin-bottom: 0.8rem;
+}
+
+body.journal .archive-excerpt {
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  body.journal .archive-item {
     grid-template-columns: 1fr;
   }
-  .archive-thumb {
+  body.journal .archive-thumb {
     width: 100%;
-    height: 180px;
+    height: 220px;
   }
+}
+/* ===============================
+   SINGLE POST (individual)
+   Requiere: body_class: single-post
+=============================== */
+body.single-post {
+  background: #ffffff;
+  color: var(--text-dark);
+}
+
+body.single-post a, body.single-post a:visited {
+  color: var(--purple);
+}
+
+body.single-post .topnav {
+  background: var(--purple);
+}
+
+body.single-post .page-content {
+  background: #ffffff;
+}
+
+/* Post layout */
+body.single-post .post {
+  padding: 3rem 0;
+}
+
+body.single-post .post-header {
+  border-bottom: 1px dashed var(--purple);
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+body.single-post .post-title {
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+body.single-post .post-meta {
+  opacity: 0.7;
+  margin-top: 0.6rem;
+}
+
+body.single-post .post a {
+  border-bottom: 1px dashed var(--purple);
+}
+
+/* ===============================
+   NAV FIX (siempre visible)
+=============================== */
+/* Nav siempre morado */
+.topnav {
+  background: #4e31e1;
+}
+
+/* Texto del nav SIEMPRE blanco */
+.topnav .brand,
+.topnav .navlinks a,
+.topnav .navlinks a:visited {
+  color: #ffffff !important;
+}
+
+/* Hover */
+.topnav .navlinks a:hover {
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=main.css.map */

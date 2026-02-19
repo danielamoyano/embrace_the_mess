@@ -5,11 +5,11 @@
    Base typography
 =============================== */
 body {
-  font-family: "Bree Serif", serif;
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.75;
-  color: #494949;
-  background-color: rgba(222, 215, 226, 0.9);
+  color: #ffffff;
+  background-color: #4e31e1;
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ p,
 li,
 .post-body p,
 .archive-excerpt {
-  font-family: "Work Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3 {
 =============================== */
 a,
 a:visited {
-  color: #912727;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -80,27 +80,27 @@ img {
 
 .post hr {
   border: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   margin: 2.5rem 0;
 }
 
 .post a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .post a:hover {
-  border-bottom-color: rgba(0, 0, 0, 0.55);
+  border-bottom-color: rgba(255, 255, 255, 0.55);
 }
 
 .post blockquote {
   margin: 2rem 0;
   padding-left: 1rem;
-  border-left: 3px solid rgba(0, 0, 0, 0.25);
+  border-left: 3px solid rgba(255, 255, 255, 0.25);
   color: rgba(0, 0, 0, 0.75);
 }
 
 .post pre {
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.06);
   padding: 1rem 1.1rem;
   border-radius: 10px;
   overflow-x: auto;
@@ -109,7 +109,7 @@ img {
 .post code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.95em;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   padding: 0.15em 0.35em;
   border-radius: 6px;
 }
@@ -120,9 +120,9 @@ img {
 .topnav {
   position: sticky;
   top: 0;
-  background: rgba(222, 215, 226, 0.9);
+  background: #4e31e1;
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   z-index: 10;
 }
 
@@ -144,7 +144,7 @@ img {
 .navlinks a:visited {
   margin-left: 0.9rem;
   font-size: 0.95rem;
-  color: #912727;
+  color: #ffffff;
 }
 
 .navlinks a:hover,
@@ -172,7 +172,7 @@ img {
 }
 
 .archive-item:hover {
-  border-color: rgba(0, 0, 0, 0.18);
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .archive-thumb {
@@ -189,13 +189,13 @@ img {
 
 .archive-meta {
   font-size: 0.92rem;
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.55);
   margin-bottom: 0.6rem;
 }
 
 .archive-excerpt {
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.78);
+  color: rgba(255, 255, 255, 0.78);
 }
 
 /* ===============================

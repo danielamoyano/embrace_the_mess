@@ -5,7 +5,7 @@ section: journal
 hero: assets/img/la-obra-es-sobra.jpg
 body_class: single-post
 ---
-![poster](../../../../assets/img/The-art-of-clean-up-1.jpg)
+![poster](/embrace_the_mess/images/The-art-of-clean-up-1.jpg)
 
 You never know when you will come across something that can be interesting for your research.
 

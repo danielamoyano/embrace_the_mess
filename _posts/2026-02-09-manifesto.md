@@ -2,7 +2,7 @@
 layout: post
 title: "Research messiness manifesto"
 section: journal
-hero: assets/img/la-obra-es-sobra.jpg
+hero: assets/img/The-art-of-clean-up-1.jpg
 body_class: single-post
 ---
 ![poster](/embrace_the_mess/images/The-art-of-clean-up-1.jpg)

@@ -19,3 +19,10 @@ For this reason, this is a call to embrace all those elements that often seem ex
 The ways in which knowledge is disseminated also shape how it is produced. For this reason, we propose experimenting with different forms of documenting and disseminating knowledge—forms that embrace not only everything related to the research itself, but also the feelings, uncertainties, and experiences involved in confronting a new investigation, no matter how vertiginous it may be.
 Let us untangle the thread and examine each of the fibers that compose it.
 
+### References
+Bardzell, J., Bardzell, S., Dalsgaard, P., Gross, S., & Halskov, K. (2016). Documenting the Research Through Design Process. Proceedings of the 2016 ACM Conference on Designing Interactive Systems, 96–107. https://doi.org/10.1145/2901790.2901859
+Desjardins, A., & Key, C. (2020). Parallels, Tangents, and Loops: Reflections on the “Through” Part of RtD. Proceedings of the 2020 ACM Designing Interactive Systems Conference, 2133–2147. https://doi.org/10.1145/3357236.3395586
+Epp, F. A., Rosén, A. P., Salovaara, A., & Sanchez, C. (2024). Uncertainties as Generative Resources in Research through Design: Three Dynamics for Moving in a Design Space. ACM Transactions on Computer-Human Interaction, 31(6), 1–31. https://doi.org/10.1145/3689041
+Jungnickel, K., & Hjorth, L. (2014). Methodological entanglements in the field: Methods, transitions and transmissions. Visual Studies, 29(2), 136–145. https://doi.org/10.1080/1472586X.2014.887263
+Knight, V., & Zempi, I. (2020). Embracing the emotional turn: Responding to researchers’ emotions. Emotions and Society, 2(2), 139–156. https://doi.org/10.1332/263169020X15925529968217
+Yoo, M., Ppali, S., Odom, W., Zhuang, Y., Kritika, K., Olson, W., Wieczorek, C., Biggs, H., Berger, A., Desjardins, A., Wakkary, R., & Ringland, K. E. (2025). Translating HCI Research to Broader Audiences: Motivation, Inspiration, and Critical Factors on Alternative Research Outcomes. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 1–24. https://doi.org/10.1145/3706598.3713884

@@ -6,7 +6,7 @@ hero: images/The-art-of-clean-up-1.jpg
 body_class: single-post
 ---
 ![poster {caption=The Art of Clean Up: Life Made Neat and Tidy. Author: Ursus Wehrli}](/embrace_the_mess/images/The-art-of-clean-up-1.jpg)
-*caption=The Art of Clean Up: Life Made Neat and Tidy. Author: Ursus Wehrli*
+*The Art of Clean Up: Life Made Neat and Tidy. Author: Ursus Wehrli*
 
 The scientific community increasingly demands transparency, and this appears to be a fully legitimate demand. We should be able to scrutinize and even audit what scientists are working on and how they are doing it. Researchers should be transparent and open up the entire research process. This allows us to understand who is behind the research, what decisions were made, what was included and what was excluded, among many other aspects that shape the production of knowledge.
 

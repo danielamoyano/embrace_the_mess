@@ -6,7 +6,7 @@ hero: images/The-art-of-clean-up-1.jpg
 body_class: single-post
 ---
 ![poster {caption=The Art of Clean Up: Life Made Neat and Tidy. Author: Ursus Wehrli}](/embrace_the_mess/images/The-art-of-clean-up-1.jpg)
-
+*caption=The Art of Clean Up: Life Made Neat and Tidy. Author: Ursus Wehrli*
 
 The scientific community increasingly demands transparency, and this appears to be a fully legitimate demand. We should be able to scrutinize and even audit what scientists are working on and how they are doing it. Researchers should be transparent and open up the entire research process. This allows us to understand who is behind the research, what decisions were made, what was included and what was excluded, among many other aspects that shape the production of knowledge.
 
@@ -20,9 +20,12 @@ The ways in which knowledge is disseminated also shape how it is produced. For t
 Let us untangle the thread and examine each of the fibers that compose it.
 
 ### References
-Bardzell, J., Bardzell, S., Dalsgaard, P., Gross, S., & Halskov, K. (2016). Documenting the Research Through Design Process. Proceedings of the 2016 ACM Conference on Designing Interactive Systems, 96–107. https://doi.org/10.1145/2901790.2901859
-Desjardins, A., & Key, C. (2020). Parallels, Tangents, and Loops: Reflections on the “Through” Part of RtD. Proceedings of the 2020 ACM Designing Interactive Systems Conference, 2133–2147. https://doi.org/10.1145/3357236.3395586
-Epp, F. A., Rosén, A. P., Salovaara, A., & Sanchez, C. (2024). Uncertainties as Generative Resources in Research through Design: Three Dynamics for Moving in a Design Space. ACM Transactions on Computer-Human Interaction, 31(6), 1–31. https://doi.org/10.1145/3689041
-Jungnickel, K., & Hjorth, L. (2014). Methodological entanglements in the field: Methods, transitions and transmissions. Visual Studies, 29(2), 136–145. https://doi.org/10.1080/1472586X.2014.887263
-Knight, V., & Zempi, I. (2020). Embracing the emotional turn: Responding to researchers’ emotions. Emotions and Society, 2(2), 139–156. https://doi.org/10.1332/263169020X15925529968217
-Yoo, M., Ppali, S., Odom, W., Zhuang, Y., Kritika, K., Olson, W., Wieczorek, C., Biggs, H., Berger, A., Desjardins, A., Wakkary, R., & Ringland, K. E. (2025). Translating HCI Research to Broader Audiences: Motivation, Inspiration, and Critical Factors on Alternative Research Outcomes. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 1–24. https://doi.org/10.1145/3706598.3713884
+Bardzell, J., Bardzell, S., Dalsgaard, P., Gross, S., & Halskov, K. (2016). Documenting the Research Through Design Process. *Proceedings of the 2016 ACM Conference on Designing Interactive Systems*, 96–107. https://doi.org/10.1145/2901790.2901859
+
+Desjardins, A., & Key, C. (2020). Parallels, Tangents, and Loops: Reflections on the “Through” Part of RtD. *Proceedings of the 2020 ACM Designing Interactive Systems Conference*, 2133–2147. https://doi.org/10.1145/3357236.3395586
+
+Epp, F. A., Rosén, A. P., Salovaara, A., & Sanchez, C. (2024). Uncertainties as Generative Resources in Research through Design: Three Dynamics for Moving in a Design Space. *ACM Transactions on Computer-Human Interaction*, 31(6), 1–31. https://doi.org/10.1145/3689041
+
+Jungnickel, K., & Hjorth, L. (2014). Methodological entanglements in the field: Methods, transitions and transmissions. *Visual Studies*, 29(2), 136–145. https://doi.org/10.1080/1472586X.2014.887263
+
+Yoo, M., Ppali, S., Odom, W., Zhuang, Y., Kritika, K., Olson, W., Wieczorek, C., Biggs, H., Berger, A., Desjardins, A., Wakkary, R., & Ringland, K. E. (2025). Translating HCI Research to Broader Audiences: Motivation, Inspiration, and Critical Factors on Alternative Research Outcomes. *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*, 1–24. https://doi.org/10.1145/3706598.3713884

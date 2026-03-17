@@ -5,7 +5,7 @@ section: journal
 hero: images/GRANADAS.jpg
 body_class: single-post
 ---
-![poster {}](/embrace_the_mess/images/GRANADAS.jpg)
+![poster](../../../../assets/img/GRANADAS.jpg)
 
 *I created this essay for the introductory course for PhD students at MIT. This was my first experience interviewing someone with a different epistemic background. I tried to make him reflect on the concepts of transparency and replicability. This was hard and made me realize that there are many things so obvious to me that are not obvious to other people in the Data Visualization field*
 
